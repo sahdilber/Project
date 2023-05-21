@@ -1,5 +1,3 @@
-//amacımız sadece onckilck olduğunda classı değiştirmek
-
 const panels=document.querySelectorAll('.panel')
 
 panels.forEach((panel)=>{
