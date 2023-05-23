@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(182, 137, 241) ;
+    font-family: 'Delicious Handrawn', cursive;
+    display: flex;
+    margin:0;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: rebeccapurple;
+    border-radius:7px ;
+    color: #fff;
+    border: none;
+    margin: 1rem;
+    padding:1.5rem ;
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+.btn:hover{
+    opacity:80%;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+
+
+.btn:active{
+    transform: scale(0.97);
+}
